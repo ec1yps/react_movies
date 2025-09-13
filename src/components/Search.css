@@ -1,0 +1,43 @@
+.search {
+    margin: 20px 50px 0;
+}
+
+.search input {
+    padding: 20px 10px 10px;
+    width: 85%;
+    color: #999;
+    font-size: 20px;
+    border: 0;
+}
+
+.search input:focus {
+    outline: none;
+    border-bottom: 1px solid #CCC;
+}
+
+.btn {
+    padding: 6px 16px;
+    background-color: rgb(0, 91, 151);
+    color: #FFF;
+    border: 2px solid rgb(0, 91, 151);
+    font-weight: bold;
+    border-radius: 6px;
+    box-shadow: inset 1px 1px 1px 1px #FFF;
+    cursor: pointer;
+}
+
+.radio {
+    margin: 20px 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.radio input {
+    width: 20px;
+    height: 20px;
+}
+
+.radio span {
+    margin-right: 60px;
+    font-size: 32px;
+}
